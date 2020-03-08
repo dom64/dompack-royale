@@ -12,4 +12,4 @@ A modpack for the battle royale event
 Changelogs can be [found here](https://github.com/dom64/dompack-royale/commits/master)
 
 ## Credits
-[Contributors](https://github.com/dom64/dompack-client/graphs/contributors), [domcord](https://discord.gg/EMDEuab)
+[Contributors](https://github.com/dom64/dompack-royale/graphs/contributors), [domcord](https://discord.gg/EMDEuab)
