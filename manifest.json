@@ -1,0 +1,34 @@
+{
+  "minecraft": {
+    "version": "1.12.2",
+    "modLoaders": [
+      {
+        "id": "forge-14.23.5.2847",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "domroyale",
+  "version": "v1",
+  "author": "dom64",
+  "files": [
+    {
+      "projectID": 74072,
+      "fileID": 2877575,
+      "required": true
+    },
+    {
+      "projectID": 287683,
+      "fileID": 2882794,
+      "required": true
+    },
+    {
+      "projectID": 74924,
+      "fileID": 2713386,
+      "required": true
+    }
+  ],
+  "overrides": "overrides"
+}
