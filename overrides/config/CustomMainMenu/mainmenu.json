@@ -12,12 +12,12 @@
             "imageHeigth" : 319,
             "hoverImage" : "modpack:title/domcraft2.png",
             "alignment" : "top_center"
-         },
-
+        },
+        
         "edition":
         {
-            "image" : "modpack:title/edition.png",
-            "posX" : -54,
+            "image" : "custommainmenu:textures/gui/edition.png",
+            "posX" : -49,
             "posY" : 67,
             "width" : 128,
             "height" : 16,
@@ -54,7 +54,22 @@
                 "gui" : "multiplayer"
             }
         },
-        
+
+      
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
         "options":
         {
             "text" : "menu.options",
@@ -68,21 +83,7 @@
                 "gui" : "options"
             }
         },
-
-          "Server":
-        {
-            "text" : "Server",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 98,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "connectToServer",
-                "ip" : "mc.dom64.xyz"
-            }
-        },
-
+        
         "quit":
         {
             "text" : "menu.quit",
@@ -95,21 +96,6 @@
                 "type" : "quit"
             }
         },
-
-        "mods2":
-        {
-            "text" : "fml.menu.mods",
-            "posX" : 2,
-            "posY" : 96,
-            "width" : 98,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "mods"
-            }
-        },
-
         
         "Chungon":
         {
@@ -122,7 +108,21 @@
             "action" : 
             {
                 "type" : "openLink",
-                "link" : "https://discord.gg/EMDEuab"
+                "link" : "https://discord.gg/CzwrbuH"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -154,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
             }
         }
     },
@@ -132,7 +132,7 @@
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "Â§nBig Big Chungus Big Chungus Big Chungus funny!",
+            "hoverText" : "§nBig Big Chungus Big Chungus Big Chungus funny!",
             "posX" : -197,
             "posY" : -10,
             "color" : -1,
@@ -154,25 +154,24 @@
         }
 
     },
-    
-    "other" :
+    "other":
     {
         "splash-text":
         {
-            "posX" : 130,
+            "posX" : 90,
             "posY" : 70,
             "color" : -256,
             "alignment" : "top_center",
             "texts" : "file:modpack:texts/splashes.txt"
         },
-
+        
         "panorama":
         {
             "images" : "modpack:panorama/panorama_%c.png",
             "animate" : true,
             "animationSpeed" : 1,
             "blur" : true,
-            "gradient" : false
+            "gradient" : true
         }
     }
 }
