@@ -12,8 +12,8 @@
             "imageHeigth" : 319,
             "hoverImage" : "modpack:title/domcraft2.png",
             "alignment" : "top_center"
-        },
-        
+         },
+
         "edition":
         {
             "image" : "custommainmenu:textures/gui/edition.png",
@@ -54,22 +54,7 @@
                 "gui" : "multiplayer"
             }
         },
-
-      
-        "mods":
-        {
-            "text" : "fml.menu.mods",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "mods"
-            }
-        },
-            
+        
         "options":
         {
             "text" : "menu.options",
@@ -83,7 +68,21 @@
                 "gui" : "options"
             }
         },
-        
+
+          "Server":
+        {
+            "text" : "Server",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "mc.dom64.xyz"
+            }
+        },
+
         "quit":
         {
             "text" : "menu.quit",
@@ -96,6 +95,21 @@
                 "type" : "quit"
             }
         },
+
+        "mods2":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : 2,
+            "posY" : 96,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+
         
         "Chungon":
         {
@@ -154,7 +168,8 @@
         }
 
     },
-    "other":
+    
+    "other" :
     {
         "splash-text":
         {
@@ -164,7 +179,7 @@
             "alignment" : "top_center",
             "texts" : "file:modpack:texts/splashes.txt"
         },
-        
+
         "panorama":
         {
             "images" : "modpack:panorama/panorama_%c.png",
