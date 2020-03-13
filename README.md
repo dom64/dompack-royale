@@ -5,7 +5,7 @@ A modpack for the battle royale event
 1. Open MultiMC
 2. Click `Add Instance`
 3. Click `Import from zip`
-4. Add `https://github.com/dom64/dompack-royale/releases/download/test/testv1.zip` in the prompt.
+4. Add `https://github.com/dom64/dompack-royale/releases/download/replay/dompack.royale.replay.zip`or `https://github.com/dom64/dompack-royale/releases/download/v1.0/dompack.royal.zip` in the prompt.
 5. Click `Ok`
 
 ## Changelogs
